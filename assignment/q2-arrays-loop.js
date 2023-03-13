@@ -7,7 +7,7 @@
 const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"]
 
 function printStudentNames(){
-    for (let count = 0; count < 8; count++){
+    for (let count = 0; count < studentList.length ; count++){
         console.log[studentList[count]];
     }
 }
